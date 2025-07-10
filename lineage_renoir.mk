@@ -11,37 +11,6 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 
-Navigation Menu
-android_device_xiaomi_renoir
-
-Code
-Issues
-Pull requests
-Commit b6a8f4a
-MurtazaKolachi
-MurtazaKolachi
-committed
-on Jun 8
-Renoir: Axion bringup
-Axion.backup
-axion
-crdroid
-voltage
-1 parent 
-939745a
- commit 
-b6a8f4a
-1 file changed
-Search within code
- 
-‎lineage_renoir.mk
-+24
-Lines changed: 24 additions & 0 deletions
-Original file line number	Diff line number	Diff line change
-@@ -10,6 +10,30 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 #Axion Bringup!
 AXION_CAMERA_REAR_INFO := 64,13,5
 AXION_CAMERA_FRONT_INFO := 20
