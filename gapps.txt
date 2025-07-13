@@ -32,3 +32,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Xiaomi/renoir_global/renoir:13/TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-keys \
     DeviceProduct=renoir \
     SystemName=renoir_global
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
