@@ -10,6 +10,20 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Gms 
+WITH_GMS := false
+TARGET_CORE_GMS := false
+TARGET_CORE_GMS_EXTRAS := false
+
+# Ship Pixel Launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+RisingChipset="Snapdragon 780g" \
+RisingMaintainer="Failedmush"
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi
